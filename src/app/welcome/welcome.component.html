@@ -1,0 +1,25 @@
+<img src="/img/secure.png" #welcomeImage class="hidden lg:block" alt="welcome">
+<div class="absolute top-0 w-full block lg:flex justify-center flex-col min-h-screen min-w-full px-0 lg:px-20">
+  <div class="px-0 lg:px-20">
+    <img src="/img/secure.png" #welcomeImage class="block lg:hidden" alt="welcome">
+    <div class="p-3 bg-white rounded-2xl md:px-20">
+      <h1 class="text-3xl font-bold text-black text-center">Welcome to Safety Assistant</h1>
+      <p class="text-center my-1 font-light md:px-20 sm:px-6">Use our app to stay safe and get help when you need it the most. Set custom gestures to trigger actions discreetly</p>
+      <div class="w-full md:px-20 md:py-10">
+        <div class="grid my-3 lg:px-20 lg:py-10 gap-2">
+          <button class="btn w-full font-bold p-3 bg-blue-600 hover:bg-blue-700 hover:text-gray-50  transition duration-500 rounded" routerLink="/signin">Sign In</button>
+          <button class="btn w-full font-bold p-3 bg-gray-300 hover:bg-gray-600 hover:text-gray-200 transition duration-500 rounded" routerLink="/register">Register</button>
+        </div>
+        <div class="flex flex-row flex-nowrap my-2">
+          <hr class="grow my-auto"><span class="mx-3 text-lg font-bold">OR <button class="font-normal text-sm underline ms-3 cursor-pointer" routerLink="/app">skip</button></span><hr class="grow my-auto">
+        </div>
+
+
+      </div>
+      <p class="text-center font-light text-xs">
+        By continuing, you agree to the Terms of Use.
+        <br>Read our <span class="cursor-pointer underline">Privacy Policy</span>
+      </p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class="gap-8 grid">
+  @if(gService.allGestures.length==0){
+    <div >
+      <h3 class="font-bold hidden">Home</h3>
+      <p class="text-start my-1 font-light md:px-20 sm:px-6">You have not configured any safety actions yet.</p>
+    </div>
+  }
+
+
+  <div class="grid grid-cols-2  gap-4">
+    <div class="flex flex-col bg-gray-200 w-full aspect-video rounded relative p-3 text-sm font-light">
+      <p class="text-start">
+        Creating a custom gesture has never been this easy, create one and get started
+      </p>
+      <div class="mt-auto flex flex-row">
+        <button class="ms-auto p-2 bg-blue-600 rounded text-gray-100 font-semibold cursor-pointer" routerLink="gestures/create">Set-up Gesture</button>
+      </div>
+    </div>
+
+
+    <div class="flex flex-col bg-gray-200 w-full aspect-video rounded relative p-3 text-sm font-light">
+      <p class="text-end">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Ab ipsa quis explicabo sit omnis architecto maxime iure cum quos ipsam, odit quisquam aspernatur at beatae eveniet nesciunt eligendi molestias veritatis.
+      </p>
+      <div class="mt-auto flex flex-row">
+        <button class="me-auto p-2 bg-blue-600 rounded text-gray-100 font-semibold cursor-pointer" routerLink="gestures/get">view gestures</button>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="w-full flex md:px-6 lg:px-10 xl:">
+    <div class="w-full h-[80px] md:h-[100px] bg-green-200 hover:bg-green-700 transition duration-100 text-center font-bold text-6xl text-gray-400 hover:text-white decoration-2 align-middle content-center">
+      <!-- <div class=""> -->
+        BANNER
+      <!-- </div> -->
+    </div>
+  </div>
+
+</div>

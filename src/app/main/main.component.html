@@ -1,0 +1,14 @@
+<div class="h-full grid grid-cols-1 lg:grid-cols-[250px_1fr]">
+    <div class="headerbar block lg:hidden my-2">
+        <app-header-bar></app-header-bar>
+    </div>
+
+    <div class="sidebar hidden lg:block top-0 h-screen left-0 z-10 max-w-[250px] bg-white dark:bg-gray-900 shadow-lg">
+        <app-sidebar></app-sidebar>
+    </div>
+
+    <div class="container px-3 mx-auto z-1">
+        <router-outlet />
+    </div>
+
+</div>

@@ -1,0 +1,13 @@
+<div class="absolute top-0 w-full px-2 clearfix">
+    <div class="float-right"><i class="fa fa-x"></i></div>
+</div>
+<div class="w-full flex bg-gray-100 justify-center flex-col min-h-screen">
+    <div class="flex lg:flex-row justify-center items-center min-h-screen w-full">
+        <div class="px-3 md:px-5 w-full max-w-md">
+            <h1 class="font-bold text-center text-blue-700 hidden md:block text-3xl">Registration</h1>
+            <h3 class="font-bold text-center text-blue-700 block md:hidden text-xl">Registration</h3>
+            <router-outlet></router-outlet>
+            <p class="font-light text-sm mt-4">Already have an account? <span class="cursor-pointer font-bold text-blue-600" routerLink="/signin">Sign In</span></p>
+        </div>
+    </div>
+</div>

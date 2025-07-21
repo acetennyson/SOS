@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+
+.fs-7{font-size:0.9rem !important;}
+.fs-8{font-size:0.7rem !important;}
+.fs-9{font-size:0.5rem !important;}
+
+.toggle-checkbox:checked + .toggle-label {
+  background-color: #3b82f6; /* Tailwind blue-500 */
+}
+.toggle-checkbox:checked + .toggle-label span {
+  transform: translateX(1.25rem);
+  background-color: #fff;
+}
+.toggle-label {
+  transition: background 0.2s;
+}
+.toggle-label span {
+  transition: transform 0.2s;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,14 @@
+<div class="w-full flex justify-start flex-wrap items-center">
+  @if (runtime.pageData.back) {
+    <div class="flex-shrink px-3 py-1">
+      <i class="fa fa-arrow-left text-lg cursor-pointer" (click)="goback()"></i>
+    </div>
+  }
+    <div class="flex flex-col justify-center text-center flex-grow font-bold">
+        {{runtime.pageData.title}}
+    </div>
+    <div class="flex-shrink px-3 py-1">
+        <i class="fa fal fa-square text-lg cursor-pointer"></i>
+        <!-- fa-check-square -->
+    </div>
+</div>

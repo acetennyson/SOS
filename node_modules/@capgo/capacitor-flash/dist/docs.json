@@ -1,0 +1,100 @@
+{
+  "api": {
+    "name": "CapacitorFlashPlugin",
+    "slug": "capacitorflashplugin",
+    "docs": "",
+    "tags": [],
+    "methods": [
+      {
+        "name": "isAvailable",
+        "signature": "() => Promise<{ value: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ value: boolean; }>",
+        "tags": [
+          {
+            "name": "returns",
+            "text": "true if flashlight is available and false if not"
+          }
+        ],
+        "docs": "Checks if flashlight is available",
+        "complexTypes": [],
+        "slug": "isavailable"
+      },
+      {
+        "name": "switchOn",
+        "signature": "(options: { intensity?: number; }) => Promise<void>",
+        "parameters": [
+          {
+            "name": "options",
+            "docs": "",
+            "type": "{ intensity?: number | undefined; }"
+          }
+        ],
+        "returns": "Promise<void>",
+        "tags": [
+          {
+            "name": "returns",
+            "text": "an empty Promise"
+          },
+          {
+            "name": "param",
+            "text": "intensity The intensity of the light between 0.0 and 1.0"
+          }
+        ],
+        "docs": "Turns the flashlight on",
+        "complexTypes": [],
+        "slug": "switchon"
+      },
+      {
+        "name": "switchOff",
+        "signature": "() => Promise<void>",
+        "parameters": [],
+        "returns": "Promise<void>",
+        "tags": [
+          {
+            "name": "rejects",
+            "text": "PluginResultError"
+          }
+        ],
+        "docs": "Turns the flashlight off",
+        "complexTypes": [],
+        "slug": "switchoff"
+      },
+      {
+        "name": "isSwitchedOn",
+        "signature": "() => Promise<{ value: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ value: boolean; }>",
+        "tags": [
+          {
+            "name": "returns",
+            "text": "True of flaslight is turned on and false if not"
+          }
+        ],
+        "docs": "Checks if the flashlight is turned on or off",
+        "complexTypes": [],
+        "slug": "isswitchedon"
+      },
+      {
+        "name": "toggle",
+        "signature": "() => Promise<{ value: boolean; }>",
+        "parameters": [],
+        "returns": "Promise<{ value: boolean; }>",
+        "tags": [
+          {
+            "name": "returns",
+            "text": "True if that worked and false if not"
+          }
+        ],
+        "docs": "Toggle the flashlight",
+        "complexTypes": [],
+        "slug": "toggle"
+      }
+    ],
+    "properties": []
+  },
+  "interfaces": [],
+  "enums": [],
+  "typeAliases": [],
+  "pluginConfigs": []
+}

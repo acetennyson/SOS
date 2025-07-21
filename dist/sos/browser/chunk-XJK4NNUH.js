@@ -1,0 +1,1 @@
+import{c as o}from"./chunk-YQICDOWY.js";import"./chunk-2VMXMS7J.js";var r=class extends o{checkPermissions(){throw new Error("not available on web")}requestPermissions(){throw new Error("not available on web")}registerBackgroundTask(){throw new Error("not available on web")}dispatchEvent(n){throw new Error("not available on web")}};export{r as BackgroundRunnerWeb};

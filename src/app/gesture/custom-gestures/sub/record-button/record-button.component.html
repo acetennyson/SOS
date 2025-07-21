@@ -1,0 +1,19 @@
+<div class="h-full">
+
+
+</div>
+
+
+<div class="absolute py-2 bottom-0 left-0 right-0 flex flex-wrap content-center justify-center">
+
+  <app-circular-progress [input]="{
+    percent: TimeNow,
+    colorClass: {
+      light: 'text-green',
+      dark: 'dark:text-green'
+    },
+    lastInputTime: lastInputTime,
+  }">
+  </app-circular-progress>
+
+</div>

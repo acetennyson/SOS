@@ -1,0 +1,1 @@
+import{c as e}from"./chunk-YQICDOWY.js";import"./chunk-2VMXMS7J.js";var i=class extends e{constructor(){super(),this.registerWindowListener("devicemotion","accel"),this.registerWindowListener("deviceorientation","orientation")}};export{i as MotionWeb};

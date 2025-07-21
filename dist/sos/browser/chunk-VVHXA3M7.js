@@ -1,0 +1,1 @@
+import{c as t}from"./chunk-YQICDOWY.js";import{c as e}from"./chunk-2VMXMS7J.js";var n=class extends t{send(){return e(this,null,function*(){throw this.unimplemented("Not implemented on web.")})}};export{n as SmsManagerPluginWeb};

@@ -1,0 +1,52 @@
+@switch (data.type) {
+  @case (0) {
+    <div class="mt-2">
+      <h3 class="flex" mat-dialog-title>{{data.title || 'Alert'}}</h3>
+      <div class="flex" mat-dialog-content>
+        <p class="text-break text-sm" [innerHTML]="data.message"></p>
+      </div>
+      <div class="grid grid-cols-5 gap-4 px-2 my-2" > <!-- mat-dialog-actions -->
+        <div class="col-span-3 col-end-6">
+          <button class="w-full bg-blue-700 p-[10px] px-[15px] rounded-2xl flex justify-self-center items-center justify-center cursor-pointer transition ace-btn ace-btn__primary" mat-button [mat-dialog-close]="1" cdkFocusInitial>{{data.btn_pr}}</button>
+        </div>
+      </div>
+    </div>
+  }
+  @case (1) {
+    <div class="mt-2">
+      <h3 class="flex" mat-dialog-title>{{data.title || 'Confirm'}}</h3>
+      <div class="flex" mat-dialog-content>
+        <p class="text-break fs-7" [innerHTML]="data.message"></p>
+      </div>
+      <div class="grid grid-cols-2 gap-4 w-full px-2 my-2" > <!-- mat-dialog-actions -->
+        <div class="col-span-1">
+          <button class="w-full bg-gray-400 p-[10px] rounded-2xl flex justify-self-center items-center justify-center cursor-pointer transition ace-btn ace-btn__secondary" mat-button [mat-dialog-close]=0 >{{data.btn_sc}}</button>
+        </div>
+        <div class="col-span-1">
+          <button class="w-full col-span-1 bg-blue-700 p-[10px] rounded-2xl flex justify-self-center items-center justify-center cursor-pointer transition ace-btn ace-btn__primary" mat-button [mat-dialog-close]=1 cdkFocusInitial>{{data.btn_pr}}</button>
+        </div>
+      </div>
+    </div>
+  }
+  @case (2) {
+    <div class="mt-2">
+      <h3 class="flex" mat-dialog-title>{{data.title || 'Prompt'}}</h3>
+      <div class="flex" mat-dialog-content>
+        <p class="text-break break-words fs-7" [innerHTML]="data.message"></p>
+        <div class="mt-3 ace-form">
+          <input type="text" (keydown)="onKeydown($event)" [(ngModel)]="data.value" class="ace-form__input" cdkFocusInitial placeholder="Type Here...">
+        </div>
+      </div>
+      <div class="grid grid-cols-2 w-full gap-4 px-4 my-2" > <!-- mat-dialog-actions -->
+        <div class="col-span-1">
+          <button class="w-full bg-gray-400 p-[10px] rounded-2xl flex justify-self-center items-center justify-center cursor-pointer transition ace-btn ace-btn__secondary" [mat-dialog-close]=0 mat-button>{{data.btn_sc}}</button>
+        </div>
+        <div class="col-span-1">
+          <button class="w-full p-[10px] bg-blue-700 rounded-2xl flex justify-self-center items-center justify-center cursor-pointer transition ace-btn ace-btn__primary" mat-button [mat-dialog-close]="data.value">{{data.btn_pr}}</button>
+        </div>
+      </div>
+    </div>
+  }
+}
+
+

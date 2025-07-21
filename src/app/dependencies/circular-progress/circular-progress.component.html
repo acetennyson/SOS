@@ -1,0 +1,17 @@
+<!-- Gauge Component -->
+  <div class="relative size-30">
+    <svg class="rotate-[135deg] size-full" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg">
+      <!-- Background Circle (Gauge) -->
+      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current {{input.colorClass?.light}}-200 dark:text-neutral-700" stroke-width="1" stroke-dasharray="75 100" stroke-linecap="round"></circle>
+
+      <!-- Gauge Progress -->
+      <circle cx="18" cy="18" r="16" fill="none" class="stroke-current {{input.colorClass?.light}}-500 dark:{{input.colorClass?.dark}}-500" stroke-width="2" [attr.stroke-dasharray]="input.percent + ' 100'" stroke-linecap="round"></circle>
+    </svg>
+
+    <!-- Value Text -->
+    <div class="absolute top-1/2 start-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+      <span class="text-2xl font-bold {{input.colorClass?.light}}-600 dark:{{input.colorClass?.dark}}-500">{{input.percent}} %</span>
+      <span class="{{input.colorClass?.light}}-600 dark:{{input.colorClass?.dark}}-500 block">TimeOut</span>
+    </div>
+  </div>
+<!-- End Gauge Component -->

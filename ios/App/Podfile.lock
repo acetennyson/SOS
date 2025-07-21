@@ -1,0 +1,252 @@
+PODS:
+  - ByteowlsCapacitorSms (6.0.0):
+    - Capacitor
+  - Capacitor (7.2.0):
+    - CapacitorCordova
+  - CapacitorActionSheet (7.0.1):
+    - Capacitor
+  - CapacitorApp (7.0.1):
+    - Capacitor
+  - CapacitorAppLauncher (7.0.1):
+    - Capacitor
+  - CapacitorBackgroundRunner (2.1.0):
+    - Capacitor
+  - CapacitorBarcodeScanner (2.0.3):
+    - Capacitor
+    - OSBarcodeLib (~> 1.1.3)
+  - CapacitorBrowser (7.0.1):
+    - Capacitor
+  - CapacitorCallNumber (1.0.3):
+    - Capacitor
+  - CapacitorCamera (7.0.1):
+    - Capacitor
+  - CapacitorClipboard (7.0.1):
+    - Capacitor
+  - CapacitorCommunityCameraPreview (7.0.1):
+    - Capacitor
+  - CapacitorCommunityVolumeButtons (7.0.0):
+    - Capacitor
+  - CapacitorCordova (7.2.0)
+  - CapacitorDevice (7.0.1):
+    - Capacitor
+  - CapacitorDialog (7.0.1):
+    - Capacitor
+  - CapacitorFilesystem (7.0.1):
+    - Capacitor
+  - CapacitorFileViewer (1.0.0):
+    - Capacitor
+    - IONFileViewerLib (~> 1.0)
+  - CapacitorGeolocation (7.1.1):
+    - Capacitor
+    - IONGeolocationLib (~> 1.0)
+  - CapacitorGoogleMaps (7.0.1):
+    - Capacitor
+    - Google-Maps-iOS-Utils (~> 5.0)
+    - GoogleMaps (~> 8.4)
+  - CapacitorHaptics (7.0.1):
+    - Capacitor
+  - CapacitorInappbrowser (2.1.0):
+    - Capacitor
+    - OSInAppBrowserLib (~> 2.0)
+  - CapacitorKeyboard (7.0.1):
+    - Capacitor
+  - CapacitorLocalNotifications (7.0.1):
+    - Capacitor
+  - CapacitorNetwork (7.0.1):
+    - Capacitor
+  - CapacitorPreferences (7.0.1):
+    - Capacitor
+  - CapacitorPrivacyScreen (1.1.0):
+    - Capacitor
+  - CapacitorPushNotifications (7.0.1):
+    - Capacitor
+  - CapacitorScreenOrientation (7.0.1):
+    - Capacitor
+  - CapacitorScreenReader (7.0.1):
+    - Capacitor
+  - CapacitorShare (7.0.1):
+    - Capacitor
+  - CapacitorSplashScreen (7.0.1):
+    - Capacitor
+  - CapacitorStatusBar (7.0.1):
+    - Capacitor
+  - CapacitorToast (7.0.1):
+    - Capacitor
+  - CapgoCapacitorFlash (7.0.6):
+    - Capacitor
+  - Google-Maps-iOS-Utils (5.0.0):
+    - GoogleMaps (~> 8.0)
+  - GoogleMaps (8.4.0):
+    - GoogleMaps/Maps (= 8.4.0)
+  - GoogleMaps/Base (8.4.0)
+  - GoogleMaps/Maps (8.4.0):
+    - GoogleMaps/Base
+  - IONFileViewerLib (1.0.1)
+  - IONGeolocationLib (1.0.0)
+  - OSBarcodeLib (1.1.3)
+  - OSInAppBrowserLib (2.0.0)
+
+DEPENDENCIES:
+  - "ByteowlsCapacitorSms (from `../../node_modules/@byteowls/capacitor-sms`)"
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorActionSheet (from `../../node_modules/@capacitor/action-sheet`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorAppLauncher (from `../../node_modules/@capacitor/app-launcher`)"
+  - "CapacitorBackgroundRunner (from `../../node_modules/@capacitor/background-runner`)"
+  - "CapacitorBarcodeScanner (from `../../node_modules/@capacitor/barcode-scanner`)"
+  - "CapacitorBrowser (from `../../node_modules/@capacitor/browser`)"
+  - CapacitorCallNumber (from `../../node_modules/capacitor-call-number`)
+  - "CapacitorCamera (from `../../node_modules/@capacitor/camera`)"
+  - "CapacitorClipboard (from `../../node_modules/@capacitor/clipboard`)"
+  - "CapacitorCommunityCameraPreview (from `../../node_modules/@capacitor-community/camera-preview`)"
+  - "CapacitorCommunityVolumeButtons (from `../../node_modules/@capacitor-community/volume-buttons`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorDevice (from `../../node_modules/@capacitor/device`)"
+  - "CapacitorDialog (from `../../node_modules/@capacitor/dialog`)"
+  - "CapacitorFilesystem (from `../../node_modules/@capacitor/filesystem`)"
+  - "CapacitorFileViewer (from `../../node_modules/@capacitor/file-viewer`)"
+  - "CapacitorGeolocation (from `../../node_modules/@capacitor/geolocation`)"
+  - "CapacitorGoogleMaps (from `../../node_modules/@capacitor/google-maps`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorInappbrowser (from `../../node_modules/@capacitor/inappbrowser`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorLocalNotifications (from `../../node_modules/@capacitor/local-notifications`)"
+  - "CapacitorNetwork (from `../../node_modules/@capacitor/network`)"
+  - "CapacitorPreferences (from `../../node_modules/@capacitor/preferences`)"
+  - "CapacitorPrivacyScreen (from `../../node_modules/@capacitor/privacy-screen`)"
+  - "CapacitorPushNotifications (from `../../node_modules/@capacitor/push-notifications`)"
+  - "CapacitorScreenOrientation (from `../../node_modules/@capacitor/screen-orientation`)"
+  - "CapacitorScreenReader (from `../../node_modules/@capacitor/screen-reader`)"
+  - "CapacitorShare (from `../../node_modules/@capacitor/share`)"
+  - "CapacitorSplashScreen (from `../../node_modules/@capacitor/splash-screen`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - "CapacitorToast (from `../../node_modules/@capacitor/toast`)"
+  - "CapgoCapacitorFlash (from `../../node_modules/@capgo/capacitor-flash`)"
+
+SPEC REPOS:
+  trunk:
+    - Google-Maps-iOS-Utils
+    - GoogleMaps
+    - IONFileViewerLib
+    - IONGeolocationLib
+    - OSBarcodeLib
+    - OSInAppBrowserLib
+
+EXTERNAL SOURCES:
+  ByteowlsCapacitorSms:
+    :path: "../../node_modules/@byteowls/capacitor-sms"
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorActionSheet:
+    :path: "../../node_modules/@capacitor/action-sheet"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorAppLauncher:
+    :path: "../../node_modules/@capacitor/app-launcher"
+  CapacitorBackgroundRunner:
+    :path: "../../node_modules/@capacitor/background-runner"
+  CapacitorBarcodeScanner:
+    :path: "../../node_modules/@capacitor/barcode-scanner"
+  CapacitorBrowser:
+    :path: "../../node_modules/@capacitor/browser"
+  CapacitorCallNumber:
+    :path: "../../node_modules/capacitor-call-number"
+  CapacitorCamera:
+    :path: "../../node_modules/@capacitor/camera"
+  CapacitorClipboard:
+    :path: "../../node_modules/@capacitor/clipboard"
+  CapacitorCommunityCameraPreview:
+    :path: "../../node_modules/@capacitor-community/camera-preview"
+  CapacitorCommunityVolumeButtons:
+    :path: "../../node_modules/@capacitor-community/volume-buttons"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDevice:
+    :path: "../../node_modules/@capacitor/device"
+  CapacitorDialog:
+    :path: "../../node_modules/@capacitor/dialog"
+  CapacitorFilesystem:
+    :path: "../../node_modules/@capacitor/filesystem"
+  CapacitorFileViewer:
+    :path: "../../node_modules/@capacitor/file-viewer"
+  CapacitorGeolocation:
+    :path: "../../node_modules/@capacitor/geolocation"
+  CapacitorGoogleMaps:
+    :path: "../../node_modules/@capacitor/google-maps"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorInappbrowser:
+    :path: "../../node_modules/@capacitor/inappbrowser"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorLocalNotifications:
+    :path: "../../node_modules/@capacitor/local-notifications"
+  CapacitorNetwork:
+    :path: "../../node_modules/@capacitor/network"
+  CapacitorPreferences:
+    :path: "../../node_modules/@capacitor/preferences"
+  CapacitorPrivacyScreen:
+    :path: "../../node_modules/@capacitor/privacy-screen"
+  CapacitorPushNotifications:
+    :path: "../../node_modules/@capacitor/push-notifications"
+  CapacitorScreenOrientation:
+    :path: "../../node_modules/@capacitor/screen-orientation"
+  CapacitorScreenReader:
+    :path: "../../node_modules/@capacitor/screen-reader"
+  CapacitorShare:
+    :path: "../../node_modules/@capacitor/share"
+  CapacitorSplashScreen:
+    :path: "../../node_modules/@capacitor/splash-screen"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CapacitorToast:
+    :path: "../../node_modules/@capacitor/toast"
+  CapgoCapacitorFlash:
+    :path: "../../node_modules/@capgo/capacitor-flash"
+
+SPEC CHECKSUMS:
+  ByteowlsCapacitorSms: 8416a8a099ea627e7e55dda1fe73b57ab5aff004
+  Capacitor: 03bc7cbdde6a629a8b910a9d7d78c3cc7ed09ea7
+  CapacitorActionSheet: 4213427449132ae4135674d93010cb011725647e
+  CapacitorApp: febecbb9582cb353aed037e18ec765141f880fe9
+  CapacitorAppLauncher: bab4ca931a308252d2bafcb78ca6a364bd1d4c4e
+  CapacitorBackgroundRunner: e34ce1a45fce1944ff6691d97db178d9e575f031
+  CapacitorBarcodeScanner: 29c88bf098adb0830975d4f14c107a6bb7722e3d
+  CapacitorBrowser: 6299776d496e968505464884d565992faa20444a
+  CapacitorCallNumber: 8159a6f22094a9930c5347f892bb9bf56b5448e2
+  CapacitorCamera: 6e73f1fc6c629a672658705a02409b60854bc0f1
+  CapacitorClipboard: 70bfdb42b877b320a6e511ab94fa7a6a55d57ecb
+  CapacitorCommunityCameraPreview: 7fb6323716694a159b88bba1dfe2856be389e4ff
+  CapacitorCommunityVolumeButtons: 1b84f7abf29cd9476cef9e8979b2854a64d2eed5
+  CapacitorCordova: 5967b9ba03915ef1d585469d6e31f31dc49be96f
+  CapacitorDevice: c6f6d587dd310527f8a48bf09c4e7b4a4cf14329
+  CapacitorDialog: 0e09f242f6c3f5e82e4dc76b20f2a056be57a579
+  CapacitorFilesystem: e6261c410436f54908c11f94336c5b58286b1db0
+  CapacitorFileViewer: e8935a3c7b4e5522886d589c31505e318bf227aa
+  CapacitorGeolocation: c0755715aaadf5c86dc0053e1127b368444c914b
+  CapacitorGoogleMaps: 92f9b1a5bf8c4d818833e7671953c83556b540f9
+  CapacitorHaptics: 1f1e17041f435d8ead9ff2a34edd592c6aa6a8d6
+  CapacitorInappbrowser: b9b366f37561bf92da226df6353631ac01cc5b92
+  CapacitorKeyboard: 09fd91dcde4f8a37313e7f11bde553ad1ed52036
+  CapacitorLocalNotifications: c2212755b33d2513b8bb325096ce3a64d4039ae3
+  CapacitorNetwork: 15cb4385f0913a8ceb5e9a4d7af1ec554bdb8de8
+  CapacitorPreferences: 6c98117d4d7508034a4af9db64d6b26fc75d7b94
+  CapacitorPrivacyScreen: 3a6a5933b994bda73f46375de59a79109014ddfc
+  CapacitorPushNotifications: 6a2794788c583dd89215f1805ca4bced1b13dbdf
+  CapacitorScreenOrientation: 6d989dff97440c7bfa78deee13952d7fb03c27f3
+  CapacitorScreenReader: c1cdcf20d01d0c9d53b3858226b0bf05424ed6ea
+  CapacitorShare: e573823f511f260f598d0423c33b1e3d7bbe5fd1
+  CapacitorSplashScreen: 1d67815a422a9b61539c94f283c08ed56667c0fc
+  CapacitorStatusBar: 6e7af040d8fc4dd655999819625cae9c2d74c36f
+  CapacitorToast: ddfc4b36080dbe3634c9faf510b20f6ddcff9330
+  CapgoCapacitorFlash: fd452776b6675d207fbc67d006c923801617c194
+  Google-Maps-iOS-Utils: 66d6de12be1ce6d3742a54661e7a79cb317a9321
+  GoogleMaps: 8939898920281c649150e0af74aa291c60f2e77d
+  IONFileViewerLib: 9e6b09451afa7705545d4d20e2974b4f1555390c
+  IONGeolocationLib: 81f33f88d025846946de2cf63b0c7628e7c6bc9d
+  OSBarcodeLib: f2e981270a64faf476cb790864262b29ab8cd68a
+  OSInAppBrowserLib: 232c74691cffb9959aa07b1d5ff57d96fca2af7f
+
+PODFILE CHECKSUM: df258ad6db063e4b5fd281e44fd7ee03c2e07e6e
+
+COCOAPODS: 1.16.2

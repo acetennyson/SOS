@@ -1,0 +1,42 @@
+<div class="bg-gray-50 min-h-screen flex flex-col items-center">
+  <div class="w-full max-w-md bg-white min-h-screen flex flex-col">
+    <!-- Header -->
+    <div class="flex items-center px-4 pt-6 pb-4">
+      <button class="text-2xl text-gray-400 mr-3 focus:outline-none">
+        &times;
+      </button>
+      <h1 class="text-xl font-semibold text-gray-800">All Gestures</h1>
+    </div>
+
+    <!-- Content -->
+    <div class="flex-1 px-6">
+
+      <!-- Configure title -->
+      <h2 class="text-lg font-semibold text-gray-900 mt-6 mb-2">Volume Button Gestures</h2>
+      <!-- abc -->
+
+      @if (buttonG.length) {
+        @for (gesture of buttonG; track $index) {
+          <div class="flex items-center justify-between py-2">
+            <div>
+              <div role="link" routerLink="/app/gestures/setaction" [queryParams]="{gestureId:gesture.id}" class="text-base font-medium text-gray-900">{{gesture.name}}</div>
+              <div class="text-sm text-blue-400">[description absent]</div>
+            </div>
+            @if (isEnabled(gesture.id)!=undefined) {
+              <input type="checkbox" (change)="toggleAction(gesture.id)" [checked]="isEnabled(gesture.id)" class="toggle-checkbox hidden" id="gesture-{{gesture.id}}">
+              <label for="gesture-{{gesture.id}}" class="toggle-label block w-11 h-6 rounded-full bg-gray-200 cursor-pointer relative transition">
+                <span class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full shadow transition"></span>
+              </label>
+            }
+          </div>
+        }
+      }
+
+    <!-- Apply Settings Button -->
+    <div class="px-6 pb-6 mt-auto sticky bottom-0 py-2">
+      <button class="w-full bg-blue-600 text-white text-lg font-medium rounded-xl py-3 shadow-sm hover:bg-blue-700 transition">
+        Apply Settings
+      </button>
+    </div>
+  </div>
+</div>

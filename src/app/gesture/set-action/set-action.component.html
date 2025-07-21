@@ -1,0 +1,51 @@
+<div class="w-full">
+  <div class="text-left my-2">
+      <h3 class="text-2xl font-bold capitalize my-2">Map Gesture to Action</h3>
+      <p class="font-normal text-gray-500 text-base">Add an action to your custom gesture, while improving your safety </p>
+  </div>
+
+  <div class="my-3 gap-3">
+      <h3 class=" text-lg font-medium text-gray-900 dark:text-white">Choose an action type of which you want to set up for your custom gesture</h3>
+      @if (actionTypes.length) {
+      <ul class="grid w-full gap-3 md:grid-cols-2 mb-3">
+          @for(item of actionTypes; track $index) {
+              <li>
+                  <input type="radio" [(ngModel)]="selectedBaseAction" id="actionBase-{{$index}}" name="actionBase" [value]="item.type" class="hidden peer" required />
+                  <label for="actionBase-{{$index}}" class="inline-flex items-center justify-between w-full p-3 md:p-5 text-gray-500 bg-white border border-gray-200 rounded-lg cursor-pointer dark:hover:text-gray-300 dark:border-gray-700 dark:peer-checked:text-blue-500 peer-checked:border-blue-600 dark:peer-checked:border-blue-600 peer-checked:text-blue-600 hover:text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:bg-gray-800 dark:hover:bg-gray-700">
+                      <div class="flex flex-row flex-wrap">
+                          <div class="rounded p-3 shrink bg-gray-100 dark:bg-gray-700">
+                              <i class="{{item.fontawesomeIcon}}"></i>
+                          </div>
+                          <div class="h-full flex-1 mx-2 flex flex-col justify-center">
+                              <h5 class="font-normal">{{item.name}}</h5>
+                              <span class="text-sm font-normal block">{{item.description}}</span>
+                          </div>
+                      </div>
+                  </label>
+              </li>
+          }
+        </ul>
+
+      }@else {
+        <div class="font-bold text-red-500 text-base my-3">
+          Seems your device is unable to manage the type of actions, <button class="underline text-sky-600 ">view settings</button>
+        </div>
+      }
+
+
+  </div>
+
+
+
+  <div class="bg-white pt-3 pb-2 bg-gradient-to-t flex flex-col sticky md:bg-transparent bottom-0 left-0 right-0 lg:px-3 w-full gap-4">
+
+    <div>
+      <p class="text-gray-500 text-sm">Tip: Your recorded gesture should be simple, unique and easily repeatable</p>
+    </div>
+
+    <button (click)="RecordAction()"
+      class="w-full bg-blue-600 hover:bg-blue-700 text-white capitalize font-bold py-3 cursor-pointer rounded transition">
+        Start Recording
+    </button>
+  </div>
+</div>
